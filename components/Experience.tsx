@@ -49,7 +49,7 @@ const Experience = () => {
     setAlibaba(false);
   };
   return (
-    <section id="experience" className="max-w-contentContainer mx-auto py-10 lgl:py-20 px-4">
+    <section id="experience" className="max-w-contentContainer mx-auto py-20 lgl:py-20 mdl:py-24 px-4">
       <SectionTitle title="Where I have worked" titleNo="02"></SectionTitle>
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">

@@ -125,7 +125,7 @@ const Navbar = () => {
                 <ul className="flex flex-col text-base gap-7">
                   <Link
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
-                    href="home"
+                    href="#home"
                     onClick={handleScroll}
                   >
                     <motion.li
@@ -144,7 +144,7 @@ const Navbar = () => {
                 <ul className="flex flex-col text-base gap-7">
                   <Link
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
-                    href="about"
+                    href="#about"
                     onClick={handleScroll}
                   >
                     <motion.li
@@ -163,7 +163,7 @@ const Navbar = () => {
                 <ul className="flex flex-col text-base gap-7">
                   <Link
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
-                    href="experience"
+                    href="#experience"
                     onClick={handleScroll}
                   >
                     <motion.li
@@ -182,7 +182,7 @@ const Navbar = () => {
                 <ul className="flex flex-col text-base gap-7">
                   <Link
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
-                    href="project"
+                    href="#project"
                     onClick={handleScroll}
                   >
                     <motion.li
@@ -201,7 +201,7 @@ const Navbar = () => {
                 <ul className="flex flex-col text-base gap-7">
                   <Link
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
-                    href="resume"
+                    href="#contact"
                     onClick={handleScroll}
                   >
                     <motion.li
@@ -261,17 +261,7 @@ const Navbar = () => {
                       <SlSocialFacebook />
                     </span>
                   </motion.a>
-                  <motion.a
-                    initial={{ y: 20, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.95, ease: "easeIn" }}
-                    href="https://github.com/emanSarwar"
-                    target="_blank"
-                  >
-                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px]   hover:border-textGreen text-zinc-200 border-zinc-700  rounded-full inline-flex items-center justify-center  hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <SlSocialYoutube />
-                    </span>
-                  </motion.a>
+                  
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
@@ -287,15 +277,7 @@ const Navbar = () => {
                 </div>
 
               </div>
-              <motion.a
-                    initial={{ y: 20, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 1.5, ease: "easeIn" }}
-                    href="mailto:emansarwar3@gmail.com"
-                    target="_blank"
-                  >
-                    <span className="text-sm w-72 h-10 tracking-widest text-textGreen text-center   mt-4">Get-In-Touch</span>
-                  </motion.a>
+              
             </motion.div>
           </div>
         )}

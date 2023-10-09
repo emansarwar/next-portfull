@@ -8,9 +8,9 @@ import {RxOpenInNewWindow} from "react-icons/rx"
 
 const Projects = () => {
   return (
-    <section id="project" className="max-w-contentContainer mx-auto py-4 lgl:py-10 mdl:py-24 flex flex-col  gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
+    <section id="project" className="max-w-contentContainer mx-auto py-20 lgl:py-20 mdl:py-24 flex flex-col  gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
       <SectionTitle title="Projects" titleNo="03"></SectionTitle>
-      <div className='w-full flex flex-col items-center justify-between gap-28 mt-10 '>
+      <div className='w-full flex flex-col items-center justify-between gap-16 mt-10 '>
       <div className='w-full flex flex-col items-center justify-center gap-28 '>
         <div className='flex flex-col xl:flex-row gap-6'>
             <a href="https://doctors-eye.web.app/"
