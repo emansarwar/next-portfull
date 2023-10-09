@@ -53,8 +53,7 @@ const Navbar = () => {
               onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
-              <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.1 }}>
-                <span className="text-textGreen">01</span>About
+              <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.1 }}>About
               </motion.li>
             </Link>
             <Link
@@ -62,8 +61,7 @@ const Navbar = () => {
               onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
-              <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.2 }}>
-                <span className="text-textGreen">02</span>Experience
+              <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.2 }}>Experience
               </motion.li>
             </Link>
             <Link
@@ -71,8 +69,7 @@ const Navbar = () => {
               onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
-              <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.3 }}>
-                <span className="text-textGreen">03</span>Project
+              <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.3 }}>Project
               </motion.li>
             </Link>
             <Link
@@ -80,8 +77,7 @@ const Navbar = () => {
               onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
-              <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.4 }}>
-                <span className="text-textGreen">04</span>Contact
+              <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.4 }}>Contact
               </motion.li>
             </Link>
           </ul>
@@ -217,7 +213,7 @@ const Navbar = () => {
                         ease: "easeIn",
                       }}
                     >
-                      Resume
+                      Contact
                     </motion.li>
                   </Link>
                 </ul>
@@ -298,7 +294,7 @@ const Navbar = () => {
                     href="mailto:emansarwar3@gmail.com"
                     target="_blank"
                   >
-                    <span className="text-sm w-72 h-10 tracking-widest text-textGreen text-center   mt-4">reactbd@proton.me</span>
+                    <span className="text-sm w-72 h-10 tracking-widest text-textGreen text-center   mt-4">Get-In-Touch</span>
                   </motion.a>
             </motion.div>
           </div>

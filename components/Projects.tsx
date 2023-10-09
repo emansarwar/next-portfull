@@ -8,10 +8,10 @@ import {RxOpenInNewWindow} from "react-icons/rx"
 
 const Projects = () => {
   return (
-    <section id="project" className="max-w-container mx-auto py-24 lgl:px-20">
+    <section id="project" className="max-w-contentContainer mx-auto py-4 lgl:py-10 mdl:py-24 flex flex-col  gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
       <SectionTitle title="Projects" titleNo="03"></SectionTitle>
       <div className='w-full flex flex-col items-center justify-between gap-28 mt-10 '>
-      <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
+      <div className='w-full flex flex-col items-center justify-center gap-28 '>
         <div className='flex flex-col xl:flex-row gap-6'>
             <a href="https://doctors-eye.web.app/"
             className='w-full xl:w-1/2 h-auto relative group' target='_blank'>
@@ -50,7 +50,7 @@ const Projects = () => {
         </div>
         
       </div>
-      <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
+      <div className='w-full flex flex-col items-center lgl:pr-12 justify-center gap-28 mt-10'>
         <div className='flex flex-col xl:flex-row-reverse gap-6'>
             <a href="https://doctors-eye.web.app/"
             className='w-full xl:w-1/2 h-auto relative group' target='_blank'>
@@ -58,7 +58,7 @@ const Projects = () => {
                     <Image className='w-full h-full object-contain rounded'src={libraryImg} alt='doctor-img'/>
                 </div>
             </a>
-            <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start z-10'>
+            <div className='w-full xl:w-1/2 flex flex-col  gap-6 lgl:justify-between items-start z-10'>
                 <p className='font-titleFont  text-textGreen text-sm tracking-wide'>featured project</p>
                 <h3 className='text-2xl font-bold'>Book Worm</h3>
                 <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 xl:-mr-16 rounded-md'>An Amazon clone website for visualizing personalized Amazon website. View your products, Add your account with <span className='text-textGreen'>O-auth </span> and then make the purchage using <span className='text-textGreen'>stripe</span>.

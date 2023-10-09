@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section id="about" className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8">
+    <section id="about" className="max-w-containerSmall mx-auto py-4 lgl:py-10 flex flex-col gap-4  lgl:gap-8 mdl:py-24 mdl:px-10 xl:px-4">
       <SectionTitle title="About Me" titleNo="01"></SectionTitle>
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
@@ -74,15 +74,15 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="w-full lgl:w-1/3 h-90 relative group">
-          <div className="absolute w-full h-90 -left-6 -top-6 rounded-lg">
+        <div className="w-full lgl:w-1/3 h-80 relative group">
+          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <Image className="rounded-lg h-full object-cover" src={profileImg} alt="profileimg"></Image>
               <div className="hidden lgl:inline-block absolute w-full h-full bg-textGreen/5 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
             
           </div>
-          <div className="hidden lgl:inline-flex w-full h-80 border  border-textGreen rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300"></div>
+          <div className="hidden lgl:inline-flex w-full h-80 border  border-textGreen rounded-md group-hover:-translate-x-6 group-hover:-translate-y-6 transition-transform duration-300"></div>
         </div>
       </div>
     </section>
