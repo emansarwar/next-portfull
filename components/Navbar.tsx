@@ -266,7 +266,7 @@ const Navbar = () => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 1, ease: "easeIn" }}
-                    href="https://github.com/emanSarwar"
+                    href="https://www.instagram.com/sarwar_eman/"
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px]   hover:border-textGreen text-zinc-200 border-zinc-700  rounded-full inline-flex items-center justify-center  hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
