@@ -10,19 +10,13 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Eman Sarwar Alam and I enjoy creating things that live on the internet. My interest in web development started back in
-            2021 when I decided to try editing custom tumblr themes - turns out hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            Hello! My name is Eman Sarwar Alam and I enjoy creating things that live on the internet.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working at an advertising agency, a start-up,
-            <span className="text-textGreen">a huge corporation, and a student-led design studio</span>
+            As a junior mern-stack developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind etc. I excel in designing and maintaining responsive websites that offer a smooth user experience.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem veniam voluptate quas corporis perspiciatis laborum tempore eligendi non
-            nemo eos?
-          </p>
-          <p>Here are a few technologies I have been working with recintly:</p>
+          <p>I have experience in Frontend (HTML, CSS, Javascript, React), Backend(Node.Js), Databases(MongoDb) and UI/UX designs (Figma)</p>
+          <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-2">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">

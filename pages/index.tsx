@@ -1,3 +1,4 @@
+import * as React from 'react'
 import LeftSide from '@/components/LeftSide'
 import Navbar from '@/components/Navbar'
 import RightSide from '@/components/RightSide'
@@ -9,6 +10,8 @@ import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Contact from '@/components/works/Contact';
 import Footer from '@/components/works/Footer';
+
+
 
 export default function Home() {
   return (

@@ -44,7 +44,10 @@ const Navbar = () => {
               onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
-              <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1 }}>
+              <motion.li 
+              initial={{ y: -10, opacity: 0 }} 
+              animate={{ y: 0, opacity: 1 }} 
+              transition={{ duration: 0.1 }}>
                 Home
               </motion.li>
             </Link>

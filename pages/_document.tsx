@@ -15,3 +15,9 @@ export default function Document() {
     </Html>
   )
 }
+
+{/* <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" async>
+</script>
+<script type="text/javascript">emailjs.init(`oV98rXXFoX8VpPWgA`);
+</script> */}
